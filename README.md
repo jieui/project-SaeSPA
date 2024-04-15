@@ -90,3 +90,13 @@
     │  └─videos
     └─voice
 ```
+
+# 3. 실행 방법
+1. 도커 이미지 빌드
+```shell
+docker build -t saespa-api .
+```
+2. 도커 컨테이너 실행
+```shell
+docker container -d -p 5000:5000 --name container-saespa-api
+```
