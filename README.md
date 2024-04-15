@@ -98,5 +98,5 @@ docker build -t saespa-api .
 ```
 2. 도커 컨테이너 실행
 ```shell
-docker container -d -p 5000:5000 --name container-saespa-api
+docker container -d -p 5000:5000 --name container-saespa-api saespa-api
 ```
